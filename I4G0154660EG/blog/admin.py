@@ -1,8 +1,8 @@
 from django.contrib import admin
+from django.db import models
 from django.contrib.auth import get_user_model
 from django.utils import timezone
 from django.urls import reverse
-from models import ordere
 from django.template.defaultfilters import slugify
 # Create your models here.
 
